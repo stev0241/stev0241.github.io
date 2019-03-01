@@ -1,30 +1,101 @@
 @import "variables";
-body{
+@import "about";
+@import "portfolio";
+@import "contact";
+
+body {
   font-family: $fonts-text;
-  background-color: $asphalt;
-  color: $clouds;
 }
-h1, h2, h3, h4, h5, h6{
-  font-family: $font-headings;
+.home {
+  background-color: $homeblue;
+}
+ .about {
+  background-color: $aboutblue;
+}
+.contact {
+  background-color: $contactblue;
+}
+.portfolio {
+  background-color: $portfolioblue;
+}
+// Main Image on Home Page
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  height: 760px;
+}
+// Main Title Properties
+
+.text-container {
+  position: relative;
+  text-algin: center;
+  color: $homeblue;
+}
+.text-centered {
+  position: absolute;
+  font-size: 238px;
+  letter-spacing: 28px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-nav{
-  width: 200px;
-  background-colors: $peach;
-  ul{
-    li{
-      display: inline-block;
-      a{
-        display: block;
-        padding: 20px;
-        color: $asphalt;
-        border-right: 1px solid $asphalt;
-        trasition: all 300ms ease-in-out;
-        &:hover{
-          color: $clouds;
-          background-color: $asphalt;
-        }
-      }
-    }
-  }
+.text-centered .text-centered {
+  postion: absolute;
+  font-size: 236px;
+  letter-spacing: 19px;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Nav Bar Elements */
+a {
+    color: $titleblue;
+    padding: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 3px;
+    margin: 0;
+    overflow: hidden;
+    text-align: right;
+
+}
+
+a:hover{
+    background-color: $currentblue;
+}
+
+/*Breakpoint 1 */
+
+@media all and (min-width: 650px) {
+
+a {
+    color: $titleblue;
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/*Breakpoint 2 */
+
+}
+
+@media all and (min-width: 950px) {
+
+a {
+    color: $titleblue;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
 }
