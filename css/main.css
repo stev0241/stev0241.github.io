@@ -1,12 +1,4 @@
-@font-face {
-  font-family: walkway;
-  src: url("../font/walkway/Walkway rounded.ttf"); }
-
-@font-face {
-  font-family: walkway;
-  src: url("../font/walkway/Walkway rounded.ttf");
-}
-
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 .left-adjust {
   background-color: #CED9E5;
   width: 50%;
@@ -21,10 +13,6 @@
 
 .right-adjust {
   float: right; }
-
-@font-face {
-  font-family: walkway;
-  src: url("../font/walkway/Walkway rounded.ttf"); }
 
 h1 {
   color: #DBE2E9;
@@ -69,10 +57,6 @@ a:hover {
     padding: 10px;
     font-size: 1.2rem;
     cursor: pointer; } }
-
-@font-face {
-  font-family: walkway;
-  src: url("../font/walkway/Walkway rounded.ttf"); }
 
 .form-container {
   background-color: black;
@@ -125,7 +109,7 @@ input[type="submit"]:hover {
   color: #ecede7; }
 
 body {
-  font-family: walkway, sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 .home {
   background-color: #CED9E5; }
