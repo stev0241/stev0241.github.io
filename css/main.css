@@ -23,6 +23,21 @@
     margin-right: 2rem; } }
 
 /*------------Breakpoint 2-----------Desktop----------------------------- */
+@media all and (min-width: 950px) {
+  .left-adjust h1 {
+    font-size: 5rem;
+    margin-left: 0.5rem;
+    position: absolute; }
+  .contain {
+    float: left;
+    margin-top: 10rem;
+    width: 400px;
+    margin-left: 4rem; }
+  .right-adjust img {
+    position: relative;
+    float: right;
+    width: 60%; } }
+
 h1 {
   color: #002554;
   font-size: 3rem;
@@ -122,7 +137,9 @@ input[type="submit"]:hover {
     margin-top: 15rem;
     float: left;
     width: 40%;
-    background-color: #7D9BC1; } }
+    background-color: #7D9BC1; }
+  input[type="submit"] {
+    margin-left: 2.0rem; } }
 
 body {
   font-family: "Raleway", sans-serif;

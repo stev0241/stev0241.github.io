@@ -33,15 +33,30 @@
 
 
 
-
-
-
 }
 
 /*------------Breakpoint 2-----------Desktop----------------------------- */
 
 @media all and (min-width: 950px) {
 
+  .left-adjust h1 {
+    font-size: 5rem;
+    margin-left: 0.5rem;
+    position: absolute;
+  }
+
+  .contain {
+    float: left;
+    margin-top: 10rem;
+    width: 400px;
+    margin-left: 4rem;
+  }
+
+  .right-adjust img {
+    position: relative;
+    float: right;
+    width: 60%;
+  }
 
 
 
