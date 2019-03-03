@@ -10,25 +10,27 @@ h1 {
     padding: 2px;
   }
   text-align: center;
-  color: $aboutblue;
+}
+/*---------Breakpoint 1 --------Tablet View------------------*/
+
+@media all and (min-width: 650px) {
+
+
+
+
+
+
+
+
 }
 
+/*------------Breakpoint 2-----------Desktop----------------------------- */
 
-// .left-adjust {
-//   h1 {
-//     font-size: 5rem;
-//   }
-//   p, h1 {
-//     padding-left: 3rem;
-//     padding-right: 3rem;
-//     padding-top: 5rem;
-//   }
-//   background-color: $homeblue;
-//   width:50%;
-//   height:780px;
-//   float: left;
-// }
-//
-// .right-adjust {
-//   float: right;
-// }
+@media all and (min-width: 950px) {
+
+
+
+
+
+
+}

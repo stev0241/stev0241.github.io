@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import "variables";
+@import "about";
+@import "portfolio";
+@import "contact";
+
 .left-adjust {
   margin: 0 auto; }
 
 h1 {
-  text-align: center;
-  color: #A7BCD6; }
+  text-align: center; }
   h1 p {
     color: #A7BCD6;
     padding: 2px; }
 
+/*---------Breakpoint 1 --------Tablet View------------------*/
+/*------------Breakpoint 2-----------Desktop----------------------------- */
 h1 {
   color: #DBE2E9;
   font-size: 5rem;
@@ -30,7 +36,7 @@ h2 {
   text-align: center;
   font-family: "Raleway", sans-serif; }
 
-img {
+.contact-img .img {
   width: 100%; }
 
 .border-1 {
@@ -81,6 +87,14 @@ input[type="submit"]:hover {
   background: #A7BCD6;
   color: #002554; }
 
+/*---------Breakpoint 1 --------Tablet View------------------*/
+@media all and (min-width: 650px) {
+  h2 {
+    font-size: 4rem; }
+  img {
+    width: 100%; } }
+
+/*------------Breakpoint 2-----------Desktop----------------------------- */
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -159,9 +173,9 @@ img {
     font-size: 105px;
     letter-spacing: 3px; }
   footer {
-    display: none; }
-  /*------------Breakpoint 2-----------Desktop----------------------------- */ }
+    display: none; } }
 
+/*------------Breakpoint 2-----------Desktop----------------------------- */
 @media all and (min-width: 950px) {
   img {
     width: 90%;

@@ -9,8 +9,8 @@ h2 {
     text-align: center;
     font-family: $fonts-text;
 }
- img {
-   width: 100%;
+ .contact-img .img {
+width: 100%;
  }
 
 .border-1 {
@@ -71,3 +71,66 @@ input[type="submit"]:hover {
     background: $aboutblue;
     color: $portfolioblue;
 }
+
+/*---------Breakpoint 1 --------Tablet View------------------*/
+
+@media all and (min-width: 650px) {
+
+h2 {
+font-size: 4rem;
+}
+
+img {
+  width: 100%
+}
+
+
+
+
+
+
+}
+
+/*------------Breakpoint 2-----------Desktop----------------------------- */
+
+// @media all and (min-width: 950px) {
+//
+//   .text-container,
+//      form {
+//          float: left;
+//          width: calc(50% - 1rem);
+//          margin: 0 auto;
+//
+//      }
+//
+//      .form-container {
+//          font-size: 0.7rem;
+//          margin: 1rem;
+//          padding: 0.5rem;
+//      }
+//
+//      .border-1 {
+//          width: 406px;
+//          margin-left: 18px;
+//      }
+//
+//      .text-container p {
+//          margin-right: calc(35% - 2.5rem);
+//      }
+//
+//
+//      input[type="submit"] {
+//          font-size: 0.79rem;
+//          padding: 10px 10px;
+//      }
+//
+//      .back-button {
+//          font-size: 0.7rem;
+//      }
+//
+//  }
+//
+//
+//
+//
+// }
