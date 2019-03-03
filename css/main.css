@@ -31,6 +31,7 @@ h2 {
   text-align: center;
   font-family: "Raleway", sans-serif; }
 
+/* This is what I would like my contact image to be at  */
 .contact-img .img {
   width: 100%; }
 
@@ -154,6 +155,7 @@ img {
 
 /*---------Breakpoint 1 --------Tablet View------------------*/
 @media all and (min-width: 650px) {
+/* This is the property it is taking */
   img {
     width: 90%; }
   .text-centered {
