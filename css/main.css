@@ -155,12 +155,28 @@ img {
   transform: translate(-50%, -50%); }
 
 .upsidedown-container {
+  position: relative;
+  text-align: center;
+  color: #CED9E5;
   -webkit-transform: rotate(-180deg);
   -moz-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg);
   ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); }
+
+.text-upsidedown {
+  position: absolute;
+  font-size: 60px;
+  letter-spacing: 2px;
+  bottom: 30%;
+  left: 10%; }
+
+.text-upsidedown .text-upsidedown {
+  position: absolute;
+  font-size: 60px;
+  bottom: -60%;
+  left: -4%; }
 
 /*Breakpoint 1 */
 @media all and (min-width: 650px) {
