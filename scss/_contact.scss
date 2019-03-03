@@ -1,7 +1,7 @@
 @import "variables";
 // -------------------Mobile View--------------------------
 h2 {
-  color: $contactblue;
+  color: $portfolioblue;
   font-size: 3rem;
   font-family: $fonts-text;
 }
@@ -64,6 +64,9 @@ input[type="submit"]:hover {
 @media all and (min-width: 650px) {
   h2 {
     font-size: 4rem;
+    text-align: left;
+    padding: 0px;
+    margin-left: 0.5rem;
   }
 
   fieldset {

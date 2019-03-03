@@ -1,16 +1,35 @@
 @import "variables";
 // -------------Mobile View------------------------------
-h1 {
-  p {
-    color: $aboutblue;
-    padding: 2px;
-  }
+.left-adjust h1 {
+    color: $portfolioblue;
+    font-size: 3rem;
+    font-family: $fonts-text;
 }
+
+.contain {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: $portfolioblue;
+}
+
+.right-adjust img {
+  width: 100%;
+}
+
 /*---------Breakpoint 1 --------Tablet View------------------*/
 
 @media all and (min-width: 650px) {
 
+.left-adjust h1 {
+  font-size: 4rem;
+  margin-left: 0.5rem;
+}
 
+.contain {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
 
 

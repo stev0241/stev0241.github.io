@@ -1,9 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-h1 p {
-  color: #A7BCD6;
-  padding: 2px; }
+.left-adjust h1 {
+  color: #002554;
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif; }
+
+.contain {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: #002554; }
+
+.right-adjust img {
+  width: 100%; }
 
 /*---------Breakpoint 1 --------Tablet View------------------*/
+@media all and (min-width: 650px) {
+  .left-adjust h1 {
+    font-size: 4rem;
+    margin-left: 0.5rem; }
+  .contain {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem; } }
+
 /*------------Breakpoint 2-----------Desktop----------------------------- */
 h1 {
   color: #002554;
@@ -17,10 +35,17 @@ h2 {
 
 /*Breakpoint 1 */
 @media all and (min-width: 650px) {
+  h1 {
+    font-size: 4rem;
+    margin-left: 0.5rem; }
+  h2 {
+    font-size: 1.5rem;
+    color: #DBE2E9;
+    margin-top: 3rem; }
   /*Breakpoint 2 */ }
 
 h2 {
-  color: #7D9BC1;
+  color: #002554;
   font-size: 3rem;
   font-family: "Raleway", sans-serif; }
 
@@ -74,7 +99,10 @@ input[type="submit"]:hover {
 /*---------Breakpoint 1 --------Tablet View------------------*/
 @media all and (min-width: 650px) {
   h2 {
-    font-size: 4rem; }
+    font-size: 4rem;
+    text-align: left;
+    padding: 0px;
+    margin-left: 0.5rem; }
   fieldset {
     width: 90%; }
   input[type="submit"] {
