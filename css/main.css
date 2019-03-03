@@ -1,18 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 .left-adjust {
-  background-color: #CED9E5;
-  width: 50%;
-  height: 780px;
-  float: left; }
-  .left-adjust h1 {
-    font-size: 5rem; }
-  .left-adjust p, .left-adjust h1 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem; }
+  margin: 0 auto; }
 
-.right-adjust {
-  float: right; }
+h1 {
+  text-align: center;
+  color: #A7BCD6; }
+  h1 p {
+    color: #A7BCD6;
+    padding: 2px; }
 
 h1 {
   color: #DBE2E9;
@@ -24,61 +19,40 @@ h2 {
   color: #DBE2E9;
   padding-left: 100px; }
 
-/* Nav Bar Elements */
-a {
-  color: #DBE2E9;
-  padding: 5px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  text-decoration: none; }
-
-ul {
-  list-style-type: none;
-  padding: 3px;
-  margin: 0;
-  overflow: hidden;
-  text-align: right; }
-
-a:hover {
-  background-color: #003A70; }
-
 /*Breakpoint 1 */
 @media all and (min-width: 650px) {
-  a {
-    color: #DBE2E9;
-    padding: 8px;
-    font-size: 1rem;
-    cursor: pointer; }
   /*Breakpoint 2 */ }
 
-@media all and (min-width: 950px) {
-  a {
-    color: #DBE2E9;
-    padding: 10px;
-    font-size: 1.2rem;
-    cursor: pointer; } }
+h2 {
+  margin-left: 1rem;
+  color: #7D9BC1;
+  padding: 5px;
+  text-align: center;
+  font-family: "Raleway", sans-serif; }
 
-.form-container {
-  background-color: black;
-  width: 700px;
-  height: 500px; }
+img {
+  width: 100%; }
+
+.border-1 {
+  border-bottom: 1px solid #DBE2E9;
+  bottom: 20px; }
 
 fieldset {
   margin: 0 auto;
   padding: 5px;
   border: none;
   width: 100%;
-  font-family: Helvetica;
-  color: #4a596b; }
+  color: #7D9BC1; }
 
 #firstname,
 #lastname {
   position: relative;
   margin: 0 auto 10px auto;
   width: calc(100% / 2 - 3px);
-  border: 1px solid #ecede7;
+  border: 1px solid #DBE2E9;
   border-radius: 3px;
-  margin-bottom: none; }
+  margin-bottom: none;
+  color: #7D9BC1; }
 
 .name {
   margin-bottom: 5px; }
@@ -88,41 +62,29 @@ fieldset {
 textarea {
   border-radius: 3px;
   width: 100%;
-  border: 1px solid #ecede7; }
+  border: 1px solid #DBE2E9; }
 
 input[type="text"],
 textarea {
   margin-top: 5px; }
 
 input[type="submit"] {
-  font-family: Helvetica;
-  color: #4a596b;
-  font-size: 0.667rem;
-  background-color: #ecede7;
+  color: #CED9E5;
+  font-size: 1rem;
+  background-color: #7D9BC1;
   margin-bottom: 1rem;
   margin-left: 0.5rem;
   text-transform: uppercase;
   cursor: pointer; }
 
 input[type="submit"]:hover {
-  background: #092341;
-  color: #ecede7; }
+  background: #A7BCD6;
+  color: #002554; }
 
 body {
   font-family: "Raleway", sans-serif;
-  margin: 0; }
-
-.home {
+  margin: 0;
   background-color: #CED9E5; }
-
-.about {
-  background-color: #A7BCD6; }
-
-.contact {
-  background-color: #7D9BC1; }
-
-.portfolio {
-  background-color: #002554; }
 
 .bg-light {
   background-color: #CED9E5 !important; }

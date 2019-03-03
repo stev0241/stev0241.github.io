@@ -12,41 +12,11 @@ h2 {
   padding-left: 100px;
 }
 
-/* Nav Bar Elements */
-
-a {
-    color: $titleblue;
-    padding: 5px;
-    font-size: 0.85rem;
-    cursor: pointer;
-    text-decoration: none;
-
-}
-
-ul {
-
-    list-style-type: none;
-    padding: 3px;
-    margin: 0;
-    overflow: hidden;
-    text-align: right;
-
-}
-
-a:hover{
-    background-color: $currentblue;
-}
 
 /*Breakpoint 1 */
 
 @media all and (min-width: 650px) {
 
-a {
-    color: $titleblue;
-    padding: 8px;
-    font-size: 1rem;
-    cursor: pointer;
-}
 
 /*Breakpoint 2 */
 
@@ -54,12 +24,6 @@ a {
 
 @media all and (min-width: 950px) {
 
-a {
-    color: $titleblue;
-    padding: 10px;
-    font-size: 1.2rem;
-    cursor: pointer;
 
-}
 
 }

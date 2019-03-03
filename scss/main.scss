@@ -9,19 +9,7 @@
 body {
   font-family: $fonts-text;
   margin: 0;
-}
-// -------------Each page has a different background colour
-.home {
-  background-color: $homeblue;
-}
- .about {
-  background-color: $aboutblue;
-}
-.contact {
-  background-color: $contactblue;
-}
-.portfolio {
-  background-color: $portfolioblue;
+  background-color: $homeblue
 }
 
 // ------------------Mobile View------------------------------

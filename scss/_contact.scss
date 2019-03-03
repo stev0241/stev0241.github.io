@@ -1,53 +1,73 @@
 @import "variables";
 
-.form-container {
-  background-color: black;
-  width: 700px;
-  height: 500px;
+// -------------------Mobile View--------------------------
 
+h2 {
+    margin-left: 1rem;
+    color: $contactblue;
+    padding: 5px;
+    text-align: center;
+    font-family: $fonts-text;
+}
+ img {
+   width: 100%;
+ }
+
+.border-1 {
+    border-bottom: 1px solid $titleblue;
+    bottom: 20px;
 }
 
 fieldset {
-  margin: 0 auto;
-  padding: 5px;
-  border: none;
-  width: 100%;
-  font-family: Helvetica;
-  color: #4a596b; }
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    color: $contactblue;
+}
+
 
 #firstname,
 #lastname {
-  position: relative;
-  margin: 0 auto 10px auto;
-  width: calc(100% / 2 - 3px);
-  border: 1px solid #ecede7;
-  border-radius: 3px;
-  margin-bottom: none; }
+    position: relative;
+    margin: 0 auto 10px auto;
+    width: calc(100% / 2 - 3px);
+    border: 1px solid $titleblue;
+    border-radius: 3px;
+    margin-bottom: none;
+    color: $contactblue;
+
+}
 
 .name {
-  margin-bottom: 5px; }
+    margin-bottom: 5px;
+}
 
 #subject,
 #email,
 textarea {
-  border-radius: 3px;
-  width: 100%;
-  border: 1px solid #ecede7; }
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid $titleblue;
+
+}
 
 input[type="text"],
 textarea {
-  margin-top: 5px; }
+    margin-top: 5px;
+}
 
 input[type="submit"] {
-  font-family: Helvetica;
-  color: #4a596b;
-  font-size: 0.667rem;
-  background-color: #ecede7;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  text-transform: uppercase;
-  cursor: pointer; }
+    color: $homeblue;
+    font-size:1rem;
+    background-color: $contactblue;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
 input[type="submit"]:hover {
-  background: #092341;
-  color: #ecede7; }
+    background: $aboutblue;
+    color: $portfolioblue;
+}
