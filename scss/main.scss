@@ -28,7 +28,12 @@ body {
 .bg-light {
   background-color: $homeblue!important;
 }
-// Main Image on Home Page
+
+a:hover {
+  background-color:$titleblue!important;
+}
+
+// Main Image
 img {
   display: block;
   margin-left: auto;
@@ -60,6 +65,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .upsidedown-container {
   position: relative;
   text-align: center;
@@ -89,16 +95,62 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 
 
-/*Breakpoint 1 */
+/*---------Breakpoint 1 --------Tablet View------------------*/
 
 @media all and (min-width: 650px) {
 
+  img {
+    width: 90%;
+  }
 
-/*Breakpoint 2 */
+  .text-centered {
+    font-size: 108px;
+  }
+
+  .text-centered .text-centered {
+    font-size: 101px;
+  }
+
+.text-upsidedown {
+  font-size: 100px;
+  letter-spacing: 10px;
+  left: 6%;
+}
+
+.text-upsidedown .text-upsidedown {
+  font-size: 105px;
+  letter-spacing: 3px;
+
+}
+
+  footer {
+    display: none;
+  }
+
+
+
+/*------------Breakpoint 2-----------Desktop----------------------------- */
 
 }
 
 @media all and (min-width: 950px) {
+  img {
+    width: 90%;
+    height: 755px;
+  }
 
+  .text-centered {
+    font-size: 210px;
+    letter-spacing: 31px;
+  }
+
+  .text-centered .text-centered {
+    font-size: 200px;
+    letter-spacing: 19px;
+  }
+
+  .upsidedown-container {
+    display: none;
+  }
 
 }
