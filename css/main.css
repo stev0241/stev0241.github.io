@@ -111,6 +111,13 @@ input[type="submit"]:hover {
     width: 100%; } }
 
 /*------------Breakpoint 2-----------Desktop----------------------------- */
+@media all and (min-width: 950px) {
+  .contact-img .img {
+    float: right;
+    width: 50%; }
+  fieldset {
+    float: left; } }
+
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;

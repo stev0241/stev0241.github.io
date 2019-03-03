@@ -82,44 +82,18 @@ input[type="submit"]:hover {
   }
 }
 /*------------Breakpoint 2-----------Desktop----------------------------- */
-// @media all and (min-width: 950px) {
-//
-//   .text-container,
-//      form {
-//          float: left;
-//          width: calc(50% - 1rem);
-//          margin: 0 auto;
-//
-//      }
-//
-//      .form-container {
-//          font-size: 0.7rem;
-//          margin: 1rem;
-//          padding: 0.5rem;
-//      }
-//
-//      .border-1 {
-//          width: 406px;
-//          margin-left: 18px;
-//      }
-//
-//      .text-container p {
-//          margin-right: calc(35% - 2.5rem);
-//      }
-//
-//
-//      input[type="submit"] {
-//          font-size: 0.79rem;
-//          padding: 10px 10px;
-//      }
-//
-//      .back-button {
-//          font-size: 0.7rem;
-//      }
-//
-//  }
-//
-//
-//
-//
-// }
+@media all and (min-width: 950px) {
+
+.contact-img .img {
+  float: right;
+  width: 50%;
+}
+
+fieldset {
+  float: left;
+}
+
+
+
+
+}
