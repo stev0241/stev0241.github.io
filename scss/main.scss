@@ -4,10 +4,13 @@
 @import "portfolio";
 @import "contact";
 
+// Common Elements for all pages: Font and Nav Bar
 
 body {
   font-family: $fonts-text;
+  margin: 0;
 }
+// -------------Each page has a different background colour
 .home {
   background-color: $homeblue;
 }
@@ -20,25 +23,30 @@ body {
 .portfolio {
   background-color: $portfolioblue;
 }
+
+// ------------------Mobile View------------------------------
+.bg-light {
+  background-color: $homeblue!important;
+}
 // Main Image on Home Page
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 98%;
-  height: 760px;
+  width: 100%;
 }
-// Main Title Properties
 
+// Main Title Properties
 .text-container {
   position: relative;
   text-algin: center;
   color: $homeblue;
 }
+
 .text-centered {
   position: absolute;
-  font-size: 238px;
-  letter-spacing: 28px;
+  font-size: 60px;
+  letter-spacing: 5px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -46,45 +54,28 @@ img {
 
 .text-centered .text-centered {
   postion: absolute;
-  font-size: 236px;
-  letter-spacing: 19px;
+  font-size: 60px;
+  letter-spacing: 5px;
   top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-/* Nav Bar Elements */
-a {
-    color: $titleblue;
-    padding: 5px;
-    font-size: 0.85rem;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-    padding: 3px;
-    margin: 0;
-    overflow: hidden;
-    text-align: right;
+.upsidedown-container {
+  -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 }
 
-a:hover{
-    background-color: $currentblue;
-}
 
 /*Breakpoint 1 */
 
 @media all and (min-width: 650px) {
 
-a {
-    color: $titleblue;
-    padding: 8px;
-    font-size: 1rem;
-    cursor: pointer;
-}
 
 /*Breakpoint 2 */
 
@@ -92,12 +83,5 @@ a {
 
 @media all and (min-width: 950px) {
 
-a {
-    color: $titleblue;
-    padding: 10px;
-    font-size: 1.2rem;
-    cursor: pointer;
-
-}
 
 }

@@ -109,7 +109,8 @@ input[type="submit"]:hover {
   color: #ecede7; }
 
 body {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  margin: 0; }
 
 .home {
   background-color: #CED9E5; }
@@ -123,12 +124,14 @@ body {
 .portfolio {
   background-color: #002554; }
 
+.bg-light {
+  background-color: #CED9E5 !important; }
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 98%;
-  height: 760px; }
+  width: 100%; }
 
 .text-container {
   position: relative;
@@ -137,50 +140,28 @@ img {
 
 .text-centered {
   position: absolute;
-  font-size: 238px;
-  letter-spacing: 28px;
+  font-size: 60px;
+  letter-spacing: 5px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
 
 .text-centered .text-centered {
   postion: absolute;
-  font-size: 236px;
-  letter-spacing: 19px;
+  font-size: 60px;
+  letter-spacing: 5px;
   top: 120%;
   left: 50%;
   transform: translate(-50%, -50%); }
 
-/* Nav Bar Elements */
-a {
-  color: #DBE2E9;
-  padding: 5px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  text-decoration: none; }
-
-ul {
-  list-style-type: none;
-  padding: 3px;
-  margin: 0;
-  overflow: hidden;
-  text-align: right; }
-
-a:hover {
-  background-color: #003A70; }
+.upsidedown-container {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); }
 
 /*Breakpoint 1 */
 @media all and (min-width: 650px) {
-  a {
-    color: #DBE2E9;
-    padding: 8px;
-    font-size: 1rem;
-    cursor: pointer; }
   /*Breakpoint 2 */ }
-
-@media all and (min-width: 950px) {
-  a {
-    color: #DBE2E9;
-    padding: 10px;
-    font-size: 1.2rem;
-    cursor: pointer; } }
