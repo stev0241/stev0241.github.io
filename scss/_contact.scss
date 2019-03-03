@@ -1,98 +1,84 @@
 @import "variables";
-
 // -------------------Mobile View--------------------------
-
 h2 {
-    margin-left: 1rem;
-    color: $contactblue;
-    padding: 5px;
-    text-align: center;
-    font-family: $fonts-text;
+  color: $contactblue;
+  font-size: 3rem;
+  font-family: $fonts-text;
 }
- .contact-img .img {
-width: 100%;
- }
 
-.border-1 {
-    border-bottom: 1px solid $titleblue;
-    bottom: 20px;
+.contact-img .img {
+  width: 100%;
 }
 
 fieldset {
-    margin: 0 auto;
-    padding: 5px;
-    border: none;
-    width: 100%;
-    color: $contactblue;
+  margin: 0 auto;
+  padding: 5px;
+  border: none;
+  width: 100%;
+  color: $contactblue;
 }
-
 
 #firstname,
 #lastname {
-    position: relative;
-    margin: 0 auto 10px auto;
-    width: calc(100% / 2 - 3px);
-    border: 1px solid $titleblue;
-    border-radius: 3px;
-    margin-bottom: none;
-    color: $contactblue;
-
+  position: relative;
+  margin: 0 auto 10px;
+  width: calc(100% / 2 - 3px);
+  border: 1px solid $titleblue;
+  border-radius: 3px;
+  margin-bottom: none;
+  color: $contactblue;
 }
 
 .name {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-#subject,
 #email,
+#subject,
 textarea {
-    border-radius: 3px;
-    width: 100%;
-    border: 1px solid $titleblue;
-
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid $titleblue;
 }
 
 input[type="text"],
 textarea {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 input[type="submit"] {
-    color: $homeblue;
-    font-size:1rem;
-    background-color: $contactblue;
-    margin-bottom: 1rem;
-    margin-left: 0.5rem;
-    text-transform: uppercase;
-    cursor: pointer;
+  color: $homeblue;
+  font-size: 1rem;
+  background-color: $contactblue;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background: $aboutblue;
-    color: $portfolioblue;
+  background: $aboutblue;
+  color: $portfolioblue;
 }
-
 /*---------Breakpoint 1 --------Tablet View------------------*/
-
 @media all and (min-width: 650px) {
+  h2 {
+    font-size: 4rem;
+  }
 
-h2 {
-font-size: 4rem;
+  fieldset {
+    width: 90%;
+  }
+
+  input[type="submit"] {
+    margin-left: 2.6rem;
+  }
+
+  .contact-img .img {
+    width: 100%;
+  }
 }
-
-img {
-  width: 100%
-}
-
-
-
-
-
-
-}
-
 /*------------Breakpoint 2-----------Desktop----------------------------- */
-
 // @media all and (min-width: 950px) {
 //
 //   .text-container,
