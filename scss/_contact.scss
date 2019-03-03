@@ -1,5 +1,5 @@
-@import "variables";
-// -------------------Mobile View--------------------------
+@import "variables"; // -------------------Mobile View--------------------------
+
 h2 {
   color: $portfolioblue;
   font-size: 3rem;
@@ -15,7 +15,7 @@ fieldset {
   padding: 5px;
   border: none;
   width: 100%;
-  color: $contactblue;
+  color: $titleblue;
 }
 
 #firstname,
@@ -26,7 +26,7 @@ fieldset {
   border: 1px solid $titleblue;
   border-radius: 3px;
   margin-bottom: none;
-  color: $contactblue;
+  color: $titleblue;
 }
 
 .name {
@@ -65,7 +65,7 @@ input[type="submit"]:hover {
   h2 {
     font-size: 4rem;
     text-align: left;
-    padding: 0px;
+    padding: 0;
     margin-left: 0.5rem;
   }
 
@@ -77,23 +77,26 @@ input[type="submit"]:hover {
     margin-left: 2.6rem;
   }
 
-  .contact-img .img {
+  .contact-img img {
     width: 100%;
   }
 }
 /*------------Breakpoint 2-----------Desktop----------------------------- */
 @media all and (min-width: 950px) {
+  h2 {
+    position: absolute;
+  }
 
-.contact-img .img {
-  float: right;
-  width: 50%;
-}
+  .contact-img img {
+    float: right;
+    width: 60%;
+    height: 755px;
+  }
 
-fieldset {
-  float: left;
-}
-
-
-
-
+  .form-container {
+    margin-top: 15rem;
+    float: left;
+    width: 40%;
+    background-color: $contactblue;
+  }
 }

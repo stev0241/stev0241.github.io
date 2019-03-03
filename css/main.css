@@ -57,7 +57,7 @@ fieldset {
   padding: 5px;
   border: none;
   width: 100%;
-  color: #7D9BC1; }
+  color: #DBE2E9; }
 
 #firstname,
 #lastname {
@@ -67,7 +67,7 @@ fieldset {
   border: 1px solid #DBE2E9;
   border-radius: 3px;
   margin-bottom: none;
-  color: #7D9BC1; }
+  color: #DBE2E9; }
 
 .name {
   margin-bottom: 5px; }
@@ -101,22 +101,28 @@ input[type="submit"]:hover {
   h2 {
     font-size: 4rem;
     text-align: left;
-    padding: 0px;
+    padding: 0;
     margin-left: 0.5rem; }
   fieldset {
     width: 90%; }
   input[type="submit"] {
     margin-left: 2.6rem; }
-  .contact-img .img {
+  .contact-img img {
     width: 100%; } }
 
 /*------------Breakpoint 2-----------Desktop----------------------------- */
 @media all and (min-width: 950px) {
-  .contact-img .img {
+  h2 {
+    position: absolute; }
+  .contact-img img {
     float: right;
-    width: 50%; }
-  fieldset {
-    float: left; } }
+    width: 60%;
+    height: 755px; }
+  .form-container {
+    margin-top: 15rem;
+    float: left;
+    width: 40%;
+    background-color: #7D9BC1; } }
 
 body {
   font-family: "Raleway", sans-serif;
