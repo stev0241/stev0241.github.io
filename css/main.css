@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-@import "variables";
-@import "about";
-@import "portfolio";
-@import "contact";
-
 .left-adjust {
   margin: 0 auto; }
 
