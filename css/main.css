@@ -72,7 +72,7 @@ fieldset {
   padding: 5px;
   border: none;
   width: 100%;
-  color: #DBE2E9; }
+  color: #002554; }
 
 #firstname,
 #lastname {
@@ -82,7 +82,7 @@ fieldset {
   border: 1px solid #DBE2E9;
   border-radius: 3px;
   margin-bottom: none;
-  color: #DBE2E9; }
+  color: #002554; }
 
 .name {
   margin-bottom: 5px; }
