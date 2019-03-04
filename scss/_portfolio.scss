@@ -1,7 +1,5 @@
 @import "variables";
-
 // ------------------Mobile View------------------
-
 h1 {
   color: $portfolioblue;
   font-size: 3rem;
@@ -11,30 +9,20 @@ h1 {
 h2 {
   font-size: 2rem;
   color: $titleblue;
-  padding-left: 100px;
+  text-align: center;
 }
-
-
 /*Breakpoint 1 */
-
 @media all and (min-width: 650px) {
+  h1 {
+    font-size: 4rem;
+    margin-left: 0.5rem;
+  }
 
-h1 {
-  font-size: 4rem;
-  margin-left: 0.5rem;
+  h2 {
+    font-size: 1.5rem;
+    color: $titleblue;
+    margin-top: 3rem;
+  }
+  /*Breakpoint 2 */
 }
-
-h2 {
-  font-size: 1.5rem;
-  color: $titleblue;
-  margin-top: 3rem;
-}
-/*Breakpoint 2 */
-
-}
-
-@media all and (min-width: 950px) {
-
-
-
-}
+@media all and (min-width: 950px) {}

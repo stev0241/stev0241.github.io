@@ -46,7 +46,7 @@ h1 {
 h2 {
   font-size: 2rem;
   color: #DBE2E9;
-  padding-left: 100px; }
+  text-align: center; }
 
 /*Breakpoint 1 */
 @media all and (min-width: 650px) {
