@@ -6,9 +6,9 @@ h1 {
   text-align: left;
 }
 
-h2 {
+.h2 {
   font-size: 2rem;
-  color: $titleblue;
+  color: $portfolioblue;
   text-align: center;
 }
 /*Breakpoint 1 */
@@ -18,11 +18,23 @@ h2 {
     margin-left: 0.5rem;
   }
 
-  h2 {
-    font-size: 1.5rem;
-    color: $titleblue;
-    margin-top: 3rem;
+  .h2 {
+    font-size: 2.9rem;
+    color: $portfolioblue;
+    text-align: center;
   }
   /*Breakpoint 2 */
 }
-@media all and (min-width: 950px) {}
+@media all and (min-width: 950px) {
+h1 {
+  font-size: 4.5rem;
+}
+  .h2 {
+    font-size: 3.5rem;
+  }
+#carouselControls {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+}
